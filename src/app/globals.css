@@ -1,26 +1,166 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ===================================================
+   TAPÉ PARAGUAY — Design System
+   Tailwind CSS v4 with segment-adaptive theming
+   =================================================== */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* === Brand Colors === */
+  --color-brand-primary: #1B4332;
+  --color-brand-accent: #D4A574;
+  --color-brand-bg: #FAFAF5;
+  --color-brand-text: #1a1a1a;
+  --color-brand-muted: #6b7280;
+
+  /* === Segment Theme (dynamic via CSS custom properties) === */
+  --color-segment-primary: var(--segment-primary);
+  --color-segment-secondary: var(--segment-secondary);
+  --color-segment-accent: var(--segment-accent);
+  --color-segment-bg: var(--segment-bg);
+  --color-segment-surface: var(--segment-surface);
+
+  /* === Font Families === */
+  --font-heading: var(--font-inter), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-accent: var(--font-playfair), Georgia, serif;
+
+  /* === Custom Spacing === */
+  --spacing-18: 4.5rem;
+  --spacing-88: 22rem;
+  --spacing-128: 32rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ===================================================
+   SEGMENT THEME CUSTOM PROPERTIES
+   Applied via data-segment attribute on parent element
+   =================================================== */
+
+:root {
+  --segment-primary: #1B4332;
+  --segment-secondary: #D4A574;
+  --segment-accent: #F4A261;
+  --segment-bg: #FAFAF5;
+  --segment-surface: #ffffff;
+  --segment-hero-overlay: rgba(27, 67, 50, 0.6);
+  --segment-gradient-from: #1B4332;
+  --segment-gradient-to: #D4A574;
 }
+
+/* 🏔️ Adventure — Earthy, bold, wild */
+[data-segment="adventure"] {
+  --segment-primary: #1B4332;
+  --segment-secondary: #C84B31;
+  --segment-accent: #F4A261;
+  --segment-bg: #FAFAF5;
+  --segment-surface: #ffffff;
+  --segment-hero-overlay: rgba(27, 67, 50, 0.55);
+  --segment-gradient-from: #1B4332;
+  --segment-gradient-to: #C84B31;
+}
+
+/* 🏛️ Culture — Warm, heritage, storytelling */
+[data-segment="culture"] {
+  --segment-primary: #800020;
+  --segment-secondary: #D4A574;
+  --segment-accent: #3E2723;
+  --segment-bg: #FFF8E7;
+  --segment-surface: #ffffff;
+  --segment-hero-overlay: rgba(128, 0, 32, 0.5);
+  --segment-gradient-from: #800020;
+  --segment-gradient-to: #D4A574;
+}
+
+/* 📊 Invest — Professional, data-driven, trust */
+[data-segment="invest"] {
+  --segment-primary: #1A365D;
+  --segment-secondary: #2D3436;
+  --segment-accent: #C5A55A;
+  --segment-bg: #F7F8FA;
+  --segment-surface: #ffffff;
+  --segment-hero-overlay: rgba(26, 54, 93, 0.65);
+  --segment-gradient-from: #1A365D;
+  --segment-gradient-to: #2D3436;
+}
+
+/* 🏖️ Leisure — Vibrant, relaxed, fun */
+[data-segment="leisure"] {
+  --segment-primary: #E05252;
+  --segment-secondary: #4ECDC4;
+  --segment-accent: #F7DC6F;
+  --segment-bg: #FFFFFE;
+  --segment-surface: #ffffff;
+  --segment-hero-overlay: rgba(224, 82, 82, 0.4);
+  --segment-gradient-from: #E05252;
+  --segment-gradient-to: #4ECDC4;
+}
+
+/* ===================================================
+   BASE STYLES
+   =================================================== */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--segment-bg, #FAFAF5);
+  color: #1a1a1a;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===================================================
+   UTILITIES
+   =================================================== */
+
+/* Segment-aware gradient text */
+.text-segment-gradient {
+  background: linear-gradient(135deg, var(--segment-primary), var(--segment-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero overlay gradient */
+.hero-overlay {
+  background: linear-gradient(
+    180deg,
+    var(--segment-hero-overlay) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--segment-primary, #1B4332);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection color */
+::selection {
+  background: var(--segment-primary, #1B4332);
+  color: white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--segment-bg, #FAFAF5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--segment-primary, #1B4332);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
 }

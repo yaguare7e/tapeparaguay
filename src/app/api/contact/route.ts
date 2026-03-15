@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { getServiceClient } from "@/lib/supabase/server";
+import { sendContactNotification } from "@/lib/email/brevo";
 
 const contactSchema = z.object({
   fullName: z.string().min(2),
@@ -13,11 +15,25 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const data = contactSchema.parse(body);
 
-    // TODO: Insert into Supabase when configured
-    // TODO: Send email notification via Brevo
-    // TODO: Create HubSpot contact
+    // ── Critical: persist to Supabase ──────────────────────────────
+    const supabase = getServiceClient();
+    const { error: dbError } = await supabase.from("contacts").insert({
+      full_name: data.fullName,
+      email: data.email,
+      subject: data.subject,
+      message: data.message,
+    });
 
-    console.log("New contact inquiry:", data);
+    if (dbError) {
+      console.error("Supabase contact insert error:", dbError);
+      return NextResponse.json(
+        { success: false, message: "Failed to save contact message" },
+        { status: 500 }
+      );
+    }
+
+    // ── Non-critical: send email notification ──────────────────────
+    sendContactNotification(data).catch(() => {});
 
     return NextResponse.json(
       { success: true, message: "Contact message received" },

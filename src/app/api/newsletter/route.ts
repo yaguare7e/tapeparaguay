@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { getServiceClient } from "@/lib/supabase/server";
+import { addNewsletterSubscriber } from "@/lib/email/brevo";
 
 const newsletterSchema = z.object({
   email: z.string().email(),
@@ -10,10 +12,25 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const data = newsletterSchema.parse(body);
 
-    // TODO: Insert into Supabase when configured
-    // TODO: Add to Brevo contact list via API
+    // ── Critical: upsert into Supabase (idempotent by email) ──────
+    const supabase = getServiceClient();
+    const { error: dbError } = await supabase
+      .from("newsletter_subscribers")
+      .upsert(
+        { email: data.email, active: true },
+        { onConflict: "email" }
+      );
 
-    console.log("New newsletter subscription:", data.email);
+    if (dbError) {
+      console.error("Supabase newsletter upsert error:", dbError);
+      return NextResponse.json(
+        { success: false, message: "Failed to subscribe" },
+        { status: 500 }
+      );
+    }
+
+    // ── Non-critical: add to Brevo contacts ────────────────────────
+    addNewsletterSubscriber(data.email).catch(() => {});
 
     return NextResponse.json(
       { success: true, message: "Successfully subscribed" },

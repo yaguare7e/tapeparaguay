@@ -38,29 +38,21 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tape Paraguay", url: "https://tapeparaguay.com" }],
   creator: "Tape Paraguay",
+  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "es_PY",
     url: "https://tapeparaguay.com",
-    siteName: "Tape Paraguay",
-    title: "Tape Paraguay — Your Path to Paraguay",
+    siteName: "Tapé Paraguay",
+    title: "Tapé Paraguay — Your Path to Paraguay",
     description:
-      "Discover Paraguay with Tape Paraguay. Adventure, culture, investment, and leisure.",
-    images: [
-      {
-        url: "/og/default.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Tape Paraguay — Your Path to Paraguay",
-      },
-    ],
+      "Discover Paraguay with Tapé Paraguay. Adventure, culture, investment, and leisure.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tape Paraguay — Your Path to Paraguay",
+    title: "Tapé Paraguay — Your Path to Paraguay",
     description:
-      "Discover Paraguay with Tape Paraguay. Adventure, culture, investment, and leisure.",
-    images: ["/og/default.jpg"],
+      "Discover Paraguay with Tapé Paraguay. Adventure, culture, investment, and leisure.",
   },
   robots: {
     index: true,

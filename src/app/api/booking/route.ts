@@ -1,5 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
+import { getServiceClient } from "@/lib/supabase/server";
+import {
+  sendBookingNotification,
+  sendBookingConfirmation,
+} from "@/lib/email/brevo";
 
 const bookingSchema = z.object({
   fullName: z.string().min(2),
@@ -18,24 +23,32 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const data = bookingSchema.parse(body);
 
-    // TODO: Insert into Supabase when configured
-    // const { error } = await supabase.from("bookings").insert({
-    //   tour_slug: data.tourSlug,
-    //   tour_title: data.tourTitle,
-    //   segment: data.segment,
-    //   full_name: data.fullName,
-    //   email: data.email,
-    //   phone: data.phone,
-    //   preferred_date: data.preferredDate,
-    //   group_size: parseInt(data.groupSize || "1"),
-    //   message: data.message,
-    // });
+    // ── Critical: persist to Supabase ──────────────────────────────
+    const supabase = getServiceClient();
+    const { error: dbError } = await supabase.from("bookings").insert({
+      tour_slug: data.tourSlug ?? null,
+      tour_title: data.tourTitle ?? null,
+      segment: data.segment ?? null,
+      full_name: data.fullName,
+      email: data.email,
+      phone: data.phone ?? null,
+      preferred_date: data.preferredDate ?? null,
+      group_size: parseInt(data.groupSize || "1", 10),
+      message: data.message ?? null,
+    });
 
-    // TODO: Send email notification via Brevo when configured
-    // await sendBookingNotification(data);
-    // await sendBookingConfirmation(data);
+    if (dbError) {
+      console.error("Supabase booking insert error:", dbError);
+      return NextResponse.json(
+        { success: false, message: "Failed to save booking" },
+        { status: 500 }
+      );
+    }
 
-    console.log("New booking inquiry:", data);
+    // ── Non-critical: send email notifications ─────────────────────
+    // Fire-and-forget — failures are logged but don't affect the response
+    sendBookingNotification(data).catch(() => {});
+    sendBookingConfirmation(data).catch(() => {});
 
     return NextResponse.json(
       { success: true, message: "Booking inquiry received" },

@@ -1,0 +1,15 @@
+# ============================================================================
+# Tapé Paraguay — robots.txt
+# https://tapeparaguay.com
+# ============================================================================
+
+User-agent: *
+Allow: /
+
+# Block internal routes from crawling
+Disallow: /api/
+Disallow: /studio/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://tapeparaguay.com/sitemap.xml

@@ -1,0 +1,19 @@
+{
+  "name": "Tapé Paraguay — Your Path to Paraguay",
+  "short_name": "Tapé Paraguay",
+  "description": "Discover Paraguay: adventure tours, cultural heritage, investment opportunities, and leisure experiences. Your trusted guide to the heart of South America.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a5632",
+  "orientation": "portrait-primary",
+  "categories": ["travel", "tourism", "business"],
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ const TOURS = [
     title: "Encarnacion Beach Weekend",
     description:
       "Relax at Paraguay's Rivera del Parana — beach clubs, water sports, and the best nightlife outside Asuncion. Encarnacion's modern costanera features golden sand beaches, vibrant restaurants, and a summer atmosphere.",
-    image: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=1200&q=80",
     price: 180,
     duration: "3 days / 2 nights",
     difficulty: "Easy",
@@ -29,7 +29,7 @@ const TOURS = [
     title: "Asuncion Gastronomy Tour",
     description:
       "Taste your way through Asuncion's vibrant food scene, from traditional markets to innovative restaurants fusing Guarani and international cuisine. A full-day culinary adventure.",
-    image: "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1743807059772-4b4a70148d62?w=1200&q=80",
     price: 120,
     duration: "1 day",
     difficulty: "Easy",

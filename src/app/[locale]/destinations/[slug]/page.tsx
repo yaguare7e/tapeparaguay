@@ -28,7 +28,7 @@ const DESTINATIONS = [
     description:
       "Known as the 'Pearl of the South', Encarnacion is Paraguay's beach capital. Its modern costanera along the Parana River features golden sand beaches, water sports, and a vibrant carnival season that rivals the best in South America. The city also serves as the gateway to the UNESCO Jesuit Missions of Trinidad and Jesus, and hosts a thriving Japanese-Paraguayan community with its own cultural district.",
     image:
-      "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1200&q=80",
+      "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=1200&q=80",
     region: "Itapua",
     climate: "Subtropical — warm year-round, milder than Asuncion",
     bestTime: "January-February (Carnival), May-September (mild weather)",
@@ -46,7 +46,7 @@ const DESTINATIONS = [
     description:
       "The Gran Chaco covers 60% of Paraguay's territory but holds less than 3% of its population. This vast, wild frontier ranges from palm savannas near the Paraguay River to dry scrubland and ancient quebracho forests in the west. It is one of South America's last true wilderness areas, home to jaguars, giant armadillos, and over 400 bird species. The Mennonite colonies of Filadelfia and Loma Plata offer surprising oases of dairy farming culture.",
     image:
-      "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1717634546865-d5be86225c4a?w=1200&q=80",
     region: "Occidental (Boreal, Presidente Hayes, Alto Paraguay)",
     climate: "Semi-arid to hot — extreme temperatures possible",
     bestTime: "June to August (cooler, best wildlife)",
@@ -64,7 +64,7 @@ const DESTINATIONS = [
     description:
       "Paraguay's second-largest city is a commercial powerhouse on the Brazilian border, connected to Foz do Iguacu by the Friendship Bridge. Beyond its famous duty-free shopping district, Ciudad del Este offers access to the mighty Itaipu Dam — the world's largest hydroelectric plant — and the stunning Monday Falls (Salto Monday), a 45-meter waterfall just minutes from the city center.",
     image:
-      "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=1200&q=80",
+      "https://images.unsplash.com/photo-1645008404857-92b275775ef8?w=1200&q=80",
     region: "Alto Parana",
     climate: "Subtropical humid — hot and rainy in summer",
     bestTime: "April to October",
@@ -100,7 +100,7 @@ const DESTINATIONS = [
     description:
       "Paraguay's premier national park protects a stunning area of Atlantic Forest with waterfalls, hiking trails, and rich biodiversity. The park is home to the historic La Rosada iron foundry, a relic of the War of the Triple Alliance. Crystal-clear streams cascade into swimming holes, and the forest canopy shelters hundreds of bird species, making it a paradise for hikers and nature lovers.",
     image:
-      "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=1200&q=80",
+      "https://images.unsplash.com/photo-1613338962230-46fde73d3d00?w=1200&q=80",
     region: "Paraguari",
     climate: "Subtropical — cooler due to elevation",
     bestTime: "Year-round (avoid heavy rains Dec-Feb)",

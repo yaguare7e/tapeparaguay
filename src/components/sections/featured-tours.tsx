@@ -29,7 +29,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Explore the untamed Paraguayan Chaco — one of South America's last wild frontiers. Spot jaguars, peccaries, and 400+ bird species.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1717634546865-d5be86225c4a?w=600&q=80",
       alt: "Chaco wildlife",
     },
     price: { amount: 450, currency: "USD", per: "person" },
@@ -44,7 +44,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Walk through UNESCO World Heritage sites — the Jesuit-Guarani Missions of Trinidad and Jesus de Tavarangue.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=600&q=80",
       alt: "Jesuit Missions",
     },
     price: { amount: 320, currency: "USD", per: "person" },
@@ -73,7 +73,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Relax at Paraguay's Rivera del Parana — beach clubs, water sports, and the best nightlife outside Asuncion.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=600&q=80",
       alt: "Encarnacion beach",
     },
     price: { amount: 180, currency: "USD", per: "person" },

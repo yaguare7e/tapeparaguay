@@ -12,7 +12,7 @@ const TOURS = [
     description:
       "Explore the untamed Paraguayan Chaco — one of South America's last wild frontiers. Spot jaguars, peccaries, and 400+ bird species across the vast green desert where ancient quebracho forests stretch to the horizon. This multi-day expedition takes you deep into the heart of the Chaco with expert naturalist guides, staying at remote estancias and indigenous community lodges.",
     image:
-      "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1717634546865-d5be86225c4a?w=1200&q=80",
     price: 450,
     duration: "4 days / 3 nights",
     segment: "adventure",
@@ -32,7 +32,7 @@ const TOURS = [
     description:
       "Walk through UNESCO World Heritage sites — the Jesuit-Guarani Missions of Trinidad and Jesus de Tavarangue. These 17th-century ruins tell the story of one of history's most remarkable cultural experiments, where Jesuit priests and Guarani people built thriving communities that blended European and indigenous traditions.",
     image:
-      "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=1200&q=80",
+      "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=1200&q=80",
     price: 320,
     duration: "3 days / 2 nights",
     segment: "culture",
@@ -72,7 +72,7 @@ const TOURS = [
     description:
       "Relax at Paraguay's Rivera del Parana — beach clubs, water sports, and the best nightlife outside Asuncion. Encarnacion's modern costanera features golden sand beaches, vibrant restaurants, and a summer atmosphere that has earned it the nickname 'the Paraguayan Miami'.",
     image:
-      "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1200&q=80",
+      "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=1200&q=80",
     price: 180,
     duration: "3 days / 2 nights",
     segment: "leisure",
@@ -92,7 +92,7 @@ const TOURS = [
     description:
       "Discover the incredible avian biodiversity of the Paraguayan Pantanal, the world's largest tropical wetland. With over 700 species recorded, this is a birdwatcher's paradise. Expert ornithologist guides lead you through marshes, lagoons, and gallery forests to spot rare and endemic species.",
     image:
-      "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=1200&q=80",
+      "https://images.unsplash.com/photo-1613338962230-46fde73d3d00?w=1200&q=80",
     price: 380,
     duration: "3 days / 2 nights",
     segment: "adventure",
@@ -112,7 +112,7 @@ const TOURS = [
     description:
       "Taste your way through Asuncion's vibrant food scene, from traditional markets to innovative restaurants fusing Guarani and international cuisine. This full-day culinary adventure covers street food, artisan producers, craft breweries, and fine dining — all with the stories and culture behind each bite.",
     image:
-      "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=1200&q=80",
+      "https://images.unsplash.com/photo-1708007736300-89c16fa57b40?w=1200&q=80",
     price: 120,
     duration: "1 day",
     segment: "leisure",
@@ -132,7 +132,7 @@ const TOURS = [
     description:
       "Spend time with indigenous Guarani communities, learn about their traditions, crafts, and way of life in the heart of Paraguay. This respectful cultural exchange offers a window into one of South America's most resilient indigenous cultures, with homestay experiences and hands-on craft workshops.",
     image:
-      "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=1200&q=80",
+      "https://images.unsplash.com/photo-1743807059772-4b4a70148d62?w=1200&q=80",
     price: 280,
     duration: "2 days / 1 night",
     segment: "culture",

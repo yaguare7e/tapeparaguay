@@ -12,15 +12,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const PLACEHOLDER_IMAGES = [
-  { src: "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=800&q=80", alt: "Asuncion skyline", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=800&q=80", alt: "Chaco wildlife", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=800&q=80", alt: "Jesuit Missions", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=800&q=80", alt: "Encarnacion beach", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=800&q=80", alt: "Ybycui waterfall", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=800&q=80", alt: "Ciudad del Este", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=800&q=80", alt: "Motorcycle journey", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=800&q=80", alt: "Business district", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=800&q=80", alt: "Mountain landscape", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=800&q=80", alt: "Aerial view of Asuncion, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1717634546865-d5be86225c4a?w=800&q=80", alt: "Blue-and-yellow macaw in Asuncion, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=800&q=80", alt: "Jesuit Mission ruins at sunset, Trinidad, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=800&q=80", alt: "River beach with swimmers, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1613338962230-46fde73d3d00?w=800&q=80", alt: "Salto Karapa waterfall, Reserva Mbaracayu, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1645008404857-92b275775ef8?w=800&q=80", alt: "Bridge over the Parana River near Ciudad del Este, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1708007736300-89c16fa57b40?w=800&q=80", alt: "Palacio de los Lopez, presidential palace in Asuncion, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1614949260630-1d8a27791215?w=800&q=80", alt: "Iguazu Falls panoramic view from the tri-border area", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=800&q=80", alt: "Paraguay River with dense jungle shoreline, Pantanal region", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=800&q=80", alt: "Adventure motorcycle rider on red earth road, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1646097009669-4779e34e5dd5?w=800&q=80", alt: "Sunset over agricultural fields, Amistad, Paraguay", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1743807059772-4b4a70148d62?w=800&q=80", alt: "Zunilda, vegetable vendor at Mercado 4, Asuncion, Paraguay", width: 800, height: 600 },
 ];
 
 export default async function GalleryPage({ params }: { params: Promise<{ locale: string }> }) {

@@ -30,7 +30,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "encarnacion",
     region: "Itapua",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=600&q=80",
       alt: "Encarnacion beach",
     },
   },
@@ -39,7 +39,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "gran-chaco",
     region: "Chaco",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1717634546865-d5be86225c4a?w=600&q=80",
       alt: "Chaco region",
     },
   },
@@ -48,7 +48,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "jesuit-missions",
     region: "Misiones",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=600&q=80",
       alt: "Jesuit ruins",
     },
   },
@@ -57,7 +57,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "ybycui-national-park",
     region: "Paraguari",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1613338962230-46fde73d3d00?w=600&q=80",
       alt: "Ybycui waterfalls",
     },
   },
@@ -66,7 +66,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "ciudad-del-este",
     region: "Alto Parana",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1645008404857-92b275775ef8?w=600&q=80",
       alt: "Ciudad del Este",
     },
   },

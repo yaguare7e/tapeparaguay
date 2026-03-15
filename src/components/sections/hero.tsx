@@ -19,11 +19,11 @@ const SEGMENT_BACKGROUNDS: Record<string, string> = {
   adventure:
     "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=1920&q=80",
   culture:
-    "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=1920&q=80",
+    "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=1920&q=80",
   invest:
     "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=1920&q=80",
   leisure:
-    "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1920&q=80",
+    "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=1920&q=80",
 };
 
 export function Hero({

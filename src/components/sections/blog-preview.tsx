@@ -38,7 +38,7 @@ const PLACEHOLDER_POSTS: BlogPost[] = [
     excerpt:
       "Everything you need to know about Paraguay's territorial tax system, the 10% flat rate, and why global entrepreneurs are choosing Asuncion as their base.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1709133706829-c9c526d6b740?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1588013112692-1e33c3ccf8a4?w=600&q=80",
       alt: "Tax planning",
     },
     author: "Francisco Zubia",

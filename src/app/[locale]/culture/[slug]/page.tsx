@@ -11,7 +11,7 @@ const TOURS = [
     title: "Jesuit Missions Heritage Trail",
     description:
       "Walk through UNESCO World Heritage sites — the Jesuit-Guarani Missions of Trinidad and Jesus de Tavarangue. These 17th-century ruins tell the story of one of history's most remarkable cultural experiments.",
-    image: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=1200&q=80",
     price: 320,
     duration: "3 days / 2 nights",
     difficulty: "Easy",
@@ -29,7 +29,7 @@ const TOURS = [
     title: "Guarani Culture Immersion",
     description:
       "Spend time with indigenous Guarani communities, learn about their traditions, crafts, and way of life in the heart of Paraguay. A respectful cultural exchange offering a window into one of South America's most resilient indigenous cultures.",
-    image: "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1743807059772-4b4a70148d62?w=1200&q=80",
     price: 280,
     duration: "2 days / 1 night",
     difficulty: "Easy",

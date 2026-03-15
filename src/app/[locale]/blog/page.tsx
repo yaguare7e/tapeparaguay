@@ -25,7 +25,7 @@ const PLACEHOLDER_POSTS = [
     title: "The Ultimate Chaco Expedition Guide",
     excerpt: "Everything you need to know before venturing into the Paraguayan Chaco: wildlife, best seasons, what to pack, and must-see stops along the Trans-Chaco Highway.",
     date: "2025-11-28",
-    image: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1717634546865-d5be86225c4a?w=600&q=80",
     category: "adventure",
   },
   {
@@ -41,7 +41,7 @@ const PLACEHOLDER_POSTS = [
     title: "Visiting Paraguay's UNESCO Jesuit Missions",
     excerpt: "A detailed guide to exploring the Jesuit-Guarani missions of Trinidad and Jesus de Tavarangue, including history, tips, and nearby attractions.",
     date: "2025-10-22",
-    image: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1620736663824-18f7d3a79d54?w=600&q=80",
     category: "culture",
   },
   {
@@ -49,7 +49,7 @@ const PLACEHOLDER_POSTS = [
     title: "Encarnacion Carnival: Paraguay's Greatest Party",
     excerpt: "Everything you need to know about the Encarnacion Carnival, from the best dates to attend to where to stay and what to expect.",
     date: "2025-10-05",
-    image: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1575377606545-7a8d394925e8?w=600&q=80",
     category: "leisure",
   },
   {

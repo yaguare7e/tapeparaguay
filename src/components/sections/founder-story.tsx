@@ -13,7 +13,7 @@ export function FounderStory() {
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80)",
+            "url(https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=1920&q=80)",
         }}
       />
 
@@ -26,7 +26,7 @@ export function FounderStory() {
                 className="h-full w-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80)",
+                    "url(https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=800&q=80)",
                 }}
               />
             </div>

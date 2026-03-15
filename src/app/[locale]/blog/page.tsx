@@ -17,7 +17,7 @@ const PLACEHOLDER_POSTS = [
     title: "Why Paraguay Is South America's Best-Kept Secret",
     excerpt: "From its unique bilingual culture to its incredibly favorable tax system, discover why more and more travelers and investors are choosing Paraguay.",
     date: "2025-12-15",
-    image: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=600&q=80",
     category: "travel",
   },
   {
@@ -25,7 +25,7 @@ const PLACEHOLDER_POSTS = [
     title: "The Ultimate Chaco Expedition Guide",
     excerpt: "Everything you need to know before venturing into the Paraguayan Chaco: wildlife, best seasons, what to pack, and must-see stops along the Trans-Chaco Highway.",
     date: "2025-11-28",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=600&q=80",
     category: "adventure",
   },
   {
@@ -33,7 +33,7 @@ const PLACEHOLDER_POSTS = [
     title: "Paraguay's 10% Flat Tax: What You Need to Know",
     excerpt: "A comprehensive breakdown of Paraguay's territorial tax system, how it compares to other countries, and what it means for digital nomads and investors.",
     date: "2025-11-10",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=600&q=80",
     category: "invest",
   },
   {
@@ -41,7 +41,7 @@ const PLACEHOLDER_POSTS = [
     title: "Visiting Paraguay's UNESCO Jesuit Missions",
     excerpt: "A detailed guide to exploring the Jesuit-Guarani missions of Trinidad and Jesus de Tavarangue, including history, tips, and nearby attractions.",
     date: "2025-10-22",
-    image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
     category: "culture",
   },
   {
@@ -49,7 +49,7 @@ const PLACEHOLDER_POSTS = [
     title: "Encarnacion Carnival: Paraguay's Greatest Party",
     excerpt: "Everything you need to know about the Encarnacion Carnival, from the best dates to attend to where to stay and what to expect.",
     date: "2025-10-05",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
     category: "leisure",
   },
   {
@@ -57,7 +57,7 @@ const PLACEHOLDER_POSTS = [
     title: "How to Get Paraguayan Residency in 45 Days",
     excerpt: "A step-by-step guide to obtaining permanent residency in Paraguay, including required documents, costs, and timeline.",
     date: "2025-09-18",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1646097009669-4779e34e5dd5?w=600&q=80",
     category: "invest",
   },
 ];

@@ -25,7 +25,7 @@ const PLACEHOLDER_POSTS: BlogPost[] = [
     excerpt:
       "While tourists flock to Peru, Argentina, and Brazil, savvy travelers are discovering Paraguay — a country of extraordinary nature, zero crowds, and unbeatable value.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1591035897819-f4bdf739f446?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1646097009669-4779e34e5dd5?w=600&q=80",
       alt: "Paraguay landscape",
     },
     author: "Francisco Zubia",
@@ -38,7 +38,7 @@ const PLACEHOLDER_POSTS: BlogPost[] = [
     excerpt:
       "Everything you need to know about Paraguay's territorial tax system, the 10% flat rate, and why global entrepreneurs are choosing Asuncion as their base.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1709133706829-c9c526d6b740?w=600&q=80",
       alt: "Tax planning",
     },
     author: "Francisco Zubia",
@@ -51,7 +51,7 @@ const PLACEHOLDER_POSTS: BlogPost[] = [
     excerpt:
       "From the Pantanal wetlands to the dry Chaco, Paraguay is a birder's paradise. Discover the best spots, seasons, and species you can find nowhere else.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=600&q=80",
       alt: "Birds in Paraguay",
     },
     author: "Francisco Zubia",

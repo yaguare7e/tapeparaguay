@@ -21,7 +21,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "asuncion",
     region: "Central",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=600&q=80",
       alt: "Asuncion Paraguay",
     },
   },
@@ -30,7 +30,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "encarnacion",
     region: "Itapua",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
       alt: "Encarnacion beach",
     },
   },
@@ -39,7 +39,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "gran-chaco",
     region: "Chaco",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=600&q=80",
       alt: "Chaco region",
     },
   },
@@ -48,7 +48,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "jesuit-missions",
     region: "Misiones",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
       alt: "Jesuit ruins",
     },
   },
@@ -57,7 +57,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "ybycui-national-park",
     region: "Paraguari",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=600&q=80",
       alt: "Ybycui waterfalls",
     },
   },
@@ -66,7 +66,7 @@ const PLACEHOLDER_DESTINATIONS: Destination[] = [
     slug: "ciudad-del-este",
     region: "Alto Parana",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=600&q=80",
       alt: "Ciudad del Este",
     },
   },

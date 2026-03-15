@@ -1,19 +1,24 @@
 {
+  "404": {
+    "title": "页面未找到",
+    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
+    "back_home": "返回首页"
+  },
   "common": {
     "brand": "Tape Paraguay",
-    "tagline": "Your Path to Paraguay",
-    "book": "Book Now",
+    "tagline": "通往巴拉圭之路",
+    "book": "立即预订",
     "inquire": "Inquire",
-    "learn_more": "Learn More",
-    "explore": "Explore",
-    "contact": "Contact",
-    "view_all": "View All",
-    "back": "Back",
-    "loading": "Loading...",
-    "search": "Search",
-    "close": "Close",
+    "learn_more": "了解更多",
+    "explore": "探索",
+    "contact": "联系我们",
+    "view_all": "查看全部",
+    "back": "返回",
+    "loading": "加载中...",
+    "search": "搜索",
+    "close": "关闭",
     "open_menu": "Open Menu",
-    "read_more": "Read More",
+    "read_more": "阅读更多",
     "see_all_tours": "See All Tours",
     "download_guide": "Download Guide",
     "request_consultation": "Request Consultation",
@@ -23,13 +28,13 @@
     "nights": "nights",
     "from_price": "From",
     "from": "From",
-    "cta_explore": "Explore Paraguay",
-    "cta_contact": "Contact Us",
+    "cta_explore": "探索巴拉圭",
+    "cta_contact": "联系我们",
     "cta_learn_more": "Learn More",
     "cta_read_more": "Read More",
     "cta_see_all_tours": "See All Tours",
     "cta_view_all": "View All",
-    "cta_book": "Book Now",
+    "cta_book": "立即预订",
     "whatsapp_message": "Hello! I'm interested in learning more about Tape Paraguay services."
   },
   "segment_cards": {
@@ -39,15 +44,15 @@
     "leisure_desc": "Encarnacion beaches, nightlife, gourmet dining, and weekend getaways."
   },
   "nav": {
-    "adventure": "Adventure",
-    "culture": "Culture",
-    "invest": "Invest",
-    "leisure": "Leisure",
-    "destinations": "Destinations",
+    "adventure": "探险",
+    "culture": "文化",
+    "invest": "投资",
+    "leisure": "休闲",
+    "destinations": "目的地",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact",
-    "faq": "FAQ",
+    "about": "关于我们",
+    "contact": "联系方式",
+    "faq": "常见问题",
     "tools": "Travel Tools",
     "gallery": "Gallery",
     "testimonials": "Testimonials",
@@ -58,24 +63,24 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cancellation": "Cancellation Policy",
-    "tours": "Tours"
+    "tours": "旅游线路"
   },
   "home": {
-    "hero_title": "Discover Paraguay",
-    "hero_subtitle": "Uncover the untamed beauty, investment paradise, and cultural heritage of South America's best-kept secret. From the wild Chaco to the Jesuit missions, your adventure starts here.",
-    "featured_tours_title": "Featured Tours",
+    "hero_title": "发现巴拉圭",
+    "hero_subtitle": "探索南美洲最神秘的宝藏——原始之美、投资天堂与文化遗产。",
+    "featured_tours_title": "精选线路",
     "featured_tours_subtitle": "Carefully crafted experiences that bring you the best of Paraguay, from Chaco expeditions to cultural immersions in the Jesuit missions.",
-    "destinations_title": "Must-See Destinations",
+    "destinations_title": "必游目的地",
     "destinations_subtitle": "Paraguay awaits with landscapes ranging from endless wetlands to vibrant cities. Every corner has a story to tell you.",
-    "testimonials_title": "What Our Travelers Say",
+    "testimonials_title": "旅客评价",
     "testimonials_subtitle": "Real stories from those who dared to discover Paraguay and took home unforgettable memories.",
-    "blog_title": "Latest from the Blog",
+    "blog_title": "最新博客",
     "blog_subtitle": "Travel tips, adventure stories, and the latest Paraguay news you need to know before your next trip.",
     "stats_tours": "Tours Offered",
     "stats_travelers": "Happy Travelers",
     "stats_destinations": "Destinations",
     "stats_countries": "Countries Served",
-    "newsletter_title": "Don't Miss a Thing",
+    "newsletter_title": "不要错过",
     "newsletter_description": "Subscribe to receive exclusive offers, travel guides, and the latest Paraguay news straight to your inbox.",
     "tours_offered": "Tours Offered",
     "happy_travelers": "Happy Travelers",
@@ -85,7 +90,7 @@
   "adventure": {
     "meta_title": "Adventure in Paraguay | Tape Paraguay",
     "meta_description": "Experience the wild adventure of Paraguay: Chaco expeditions, Pantanal safaris, river kayaking, and unique South American wildlife spotting.",
-    "hero_title": "Wild Adventure in Paraguay",
+    "hero_title": "巴拉圭野外探险",
     "hero_subtitle": "For those who seek raw thrills and nature in its purest form",
     "intro": "Paraguay hides one of the wildest ecosystems on the planet. Venture into the Chaco, the great green desert where jaguars and pumas reign among ancient quebracho forests. Navigate the Paraguayan Pantanal, the world's largest wetland, where caimans, capybaras, and hundreds of bird species await. Paddle the Paraguay and Parana rivers by kayak, fish for the legendary dorado, or ride horseback through estancias that have upheld ranching traditions for centuries. Here, adventure is not a theme park — it is real life.",
     "section_chaco": "Chaco Expeditions",
@@ -98,7 +103,7 @@
   "culture": {
     "meta_title": "Culture & Heritage | Tape Paraguay",
     "meta_description": "Discover Paraguay's cultural heritage: Jesuit missions, Guarani culture, nanduti lace, ao po'i weaving, traditional gastronomy, and unique festivals.",
-    "hero_title": "Paraguay's Cultural Heritage",
+    "hero_title": "巴拉圭文化遗产",
     "hero_subtitle": "Where Guarani history and colonial legacy meet",
     "intro": "Paraguay is the only truly bilingual nation in South America, where Guarani and Spanish coexist in every conversation. Explore the imposing ruins of the Jesuit Missions of Trinidad and Jesus, a UNESCO World Heritage Site. Discover the art of nanduti, the needle lace that artisans weave like spider webs, and ao po'i, the exquisitely fine cotton fabric passed down through generations. Savor sopa paraguaya, chipa, and terere while wandering through markets and festivals that keep an ancient culture alive.",
     "section_missions": "Jesuit Missions",
@@ -111,7 +116,7 @@
   "invest": {
     "meta_title": "Invest in Paraguay | Tape Paraguay",
     "meta_description": "Discover why Paraguay is South America's most attractive investment destination: 10% flat tax, territorial system, fast residency, and real estate opportunities.",
-    "hero_title": "Invest in Paraguay",
+    "hero_title": "投资巴拉圭",
     "hero_subtitle": "The best-kept secret of smart investors in South America",
     "intro": "Paraguay offers one of the most competitive tax regimes in the world: a flat 10% income tax, a territorial tax system that does not tax foreign-sourced income, and a permanent residency process that can be completed in weeks, not years. With a stable economy, low cost of living, and a strategic location in the heart of Mercosur, Paraguay has become the go-to destination for entrepreneurs, digital nomads, and investors looking to maximize their wealth with legal certainty.",
     "section_residency": "Permanent Residency",
@@ -128,7 +133,7 @@
   "leisure": {
     "meta_title": "Leisure & Relaxation in Paraguay | Tape Paraguay",
     "meta_description": "Enjoy the relaxed side of Paraguay: Encarnacion beaches, Asuncion nightlife, gourmet dining, weekend getaways, and more.",
-    "hero_title": "Relax & Fun in Paraguay",
+    "hero_title": "巴拉圭休闲放松",
     "hero_subtitle": "Because Paraguay also knows how to have a good time",
     "intro": "Not everything in Paraguay is jungle and adventure. Discover the golden sand beaches of Encarnacion, the Paraguayan Miami, where the Encarnacion Carnival rivals the best on the continent. Enjoy Asuncion's growing food scene, where young chefs fuse Guarani cuisine with international techniques. Escape for a weekend to Lake Ypacarai, tour artisanal wineries, relax in thermal spas, or simply sit in a colonial plaza with a terere in hand and let Paraguayan time work its magic.",
     "section_beaches": "Encarnacion Beaches",
@@ -200,9 +205,9 @@
     "error": "We could not process your subscription. Please try again."
   },
   "legal": {
-    "terms_title": "Terms & Conditions",
-    "privacy_title": "Privacy Policy",
-    "cancellation_title": "Cancellation Policy",
+    "terms_title": "使用条款",
+    "privacy_title": "隐私政策",
+    "cancellation_title": "取消政策",
     "last_updated": "Last updated: March 2025",
     "terms_s1_title": "1. Acceptance of Terms",
     "terms_s1_text": "By accessing and using the Tape Paraguay website and services, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.",
@@ -284,7 +289,7 @@
     "home_found": "home found"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "常见问题",
     "subtitle": "Everything you need to know before traveling to or investing in Paraguay. If your question is not here, write to us and we will respond personally.",
     "q_1": "Is Paraguay safe for tourists?",
     "a_1": "Yes, Paraguay is generally safe for tourists. Like any country, it is important to exercise normal precautions, especially in larger cities. Most tourist areas are very welcoming, and Paraguayans are known for their friendliness and hospitality.",
@@ -312,7 +317,7 @@
     "a_12": "Paraguay has one of the lowest costs of living in South America. A comfortable lifestyle in Asuncion can be achieved for $1,500-2,500 USD per month, including rent, food, transportation, and entertainment. Rural areas are even more affordable."
   },
   "gallery": {
-    "title": "Gallery",
+    "title": "图库",
     "subtitle": "Discover Paraguay in Images",
     "filter_all": "All",
     "filter_adventure": "Adventure",
@@ -336,11 +341,6 @@
     "packing_list_description": "Know exactly what to pack depending on the season and the type of trip you are planning.",
     "tax_calculator": "Tax Calculator",
     "tax_calculator_description": "Estimate your tax burden in Paraguay and compare it with your current country."
-  },
-  "404": {
-    "title": "Page Not Found",
-    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
-    "back_home": "Back to Home"
   },
   "invest_residency": {
     "meta_title": "Residency in Paraguay | Tape Paraguay",
@@ -560,11 +560,11 @@
     "annual_savings": "Annual Savings"
   },
   "loading": {
-    "title": "Loading..."
+    "title": "加载中..."
   },
   "error": {
-    "title": "Something went wrong",
+    "title": "出现错误",
     "description": "There was an unexpected error. Please try reloading the page.",
-    "retry": "Try again"
+    "retry": "重试"
   }
 }

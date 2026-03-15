@@ -1,17 +1,22 @@
 {
+  "404": {
+    "title": "Kuatiarogue ndojejuhui",
+    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
+    "back_home": "Ejevy kuatiarogue tenondeguape"
+  },
   "common": {
     "brand": "Tape Paraguay",
-    "tagline": "Your Path to Paraguay",
-    "book": "Book Now",
+    "tagline": "Ne rape Paraguaipe",
+    "book": "Ehai ko'aga",
     "inquire": "Inquire",
-    "learn_more": "Learn More",
-    "explore": "Explore",
-    "contact": "Contact",
-    "view_all": "View All",
-    "back": "Back",
-    "loading": "Loading...",
-    "search": "Search",
-    "close": "Close",
+    "learn_more": "Eikuaave",
+    "explore": "Eheka",
+    "contact": "Eñe'e orendive",
+    "view_all": "Ehecha opavave",
+    "back": "Ejevy",
+    "loading": "Ojehupi hina...",
+    "search": "Eheka",
+    "close": "Emboty",
     "open_menu": "Open Menu",
     "read_more": "Read More",
     "see_all_tours": "See All Tours",
@@ -39,15 +44,15 @@
     "leisure_desc": "Encarnacion beaches, nightlife, gourmet dining, and weekend getaways."
   },
   "nav": {
-    "adventure": "Adventure",
-    "culture": "Culture",
-    "invest": "Invest",
-    "leisure": "Leisure",
-    "destinations": "Destinations",
+    "adventure": "Aventura",
+    "culture": "Arandupy",
+    "invest": "Inversio",
+    "leisure": "Py'aguapy",
+    "destinations": "Tenda",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact",
-    "faq": "FAQ",
+    "about": "Ore rehegua",
+    "contact": "Eñe'e orendive",
+    "faq": "Porandu tapiagua",
     "tools": "Travel Tools",
     "gallery": "Gallery",
     "testimonials": "Testimonials",
@@ -58,11 +63,11 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cancellation": "Cancellation Policy",
-    "tours": "Tours"
+    "tours": "Jehasareko"
   },
   "home": {
-    "hero_title": "Discover Paraguay",
-    "hero_subtitle": "Uncover the untamed beauty, investment paradise, and cultural heritage of South America's best-kept secret. From the wild Chaco to the Jesuit missions, your adventure starts here.",
+    "hero_title": "Ejuhu Paraguaipe",
+    "hero_subtitle": "Ejuhu Sudamerica-pe tetaguasu oñemikuaa poraiteveva. Chaco-gui Mision Jesuitika peve, ne aventura oñepyru ko'ape.",
     "featured_tours_title": "Featured Tours",
     "featured_tours_subtitle": "Carefully crafted experiences that bring you the best of Paraguay, from Chaco expeditions to cultural immersions in the Jesuit missions.",
     "destinations_title": "Must-See Destinations",
@@ -284,7 +289,7 @@
     "home_found": "home found"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Porandu tapiagua",
     "subtitle": "Everything you need to know before traveling to or investing in Paraguay. If your question is not here, write to us and we will respond personally.",
     "q_1": "Is Paraguay safe for tourists?",
     "a_1": "Yes, Paraguay is generally safe for tourists. Like any country, it is important to exercise normal precautions, especially in larger cities. Most tourist areas are very welcoming, and Paraguayans are known for their friendliness and hospitality.",
@@ -312,7 +317,7 @@
     "a_12": "Paraguay has one of the lowest costs of living in South America. A comfortable lifestyle in Asuncion can be achieved for $1,500-2,500 USD per month, including rent, food, transportation, and entertainment. Rural areas are even more affordable."
   },
   "gallery": {
-    "title": "Gallery",
+    "title": "Ta'angaty",
     "subtitle": "Discover Paraguay in Images",
     "filter_all": "All",
     "filter_adventure": "Adventure",
@@ -322,7 +327,7 @@
     "filter_people": "People"
   },
   "testimonials": {
-    "title": "What Our Travelers Say",
+    "title": "Mba'e he'i ore viajero kuera",
     "subtitle": "Real stories from people who trusted Tape Paraguay and lived experiences that changed their perspective."
   },
   "tools": {
@@ -336,11 +341,6 @@
     "packing_list_description": "Know exactly what to pack depending on the season and the type of trip you are planning.",
     "tax_calculator": "Tax Calculator",
     "tax_calculator_description": "Estimate your tax burden in Paraguay and compare it with your current country."
-  },
-  "404": {
-    "title": "Page Not Found",
-    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
-    "back_home": "Back to Home"
   },
   "invest_residency": {
     "meta_title": "Residency in Paraguay | Tape Paraguay",
@@ -560,11 +560,11 @@
     "annual_savings": "Annual Savings"
   },
   "loading": {
-    "title": "Loading..."
+    "title": "Ojehupi hina..."
   },
   "error": {
-    "title": "Something went wrong",
+    "title": "Mba'e vai oiko",
     "description": "There was an unexpected error. Please try reloading the page.",
-    "retry": "Try again"
+    "retry": "Eha'a jey"
   }
 }

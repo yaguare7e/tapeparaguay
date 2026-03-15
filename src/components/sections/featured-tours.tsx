@@ -29,7 +29,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Explore the untamed Paraguayan Chaco — one of South America's last wild frontiers. Spot jaguars, peccaries, and 400+ bird species.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=600&q=80",
       alt: "Chaco wildlife",
     },
     price: { amount: 450, currency: "USD", per: "person" },
@@ -44,7 +44,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Walk through UNESCO World Heritage sites — the Jesuit-Guarani Missions of Trinidad and Jesus de Tavarangue.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
       alt: "Jesuit Missions",
     },
     price: { amount: 320, currency: "USD", per: "person" },
@@ -59,7 +59,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Complete residency consultation package: legal guidance, document preparation, and step-by-step support for permanent residency.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=600&q=80",
       alt: "Paraguay investment",
     },
     price: { amount: 1500, currency: "USD", per: "package" },
@@ -73,7 +73,7 @@ const PLACEHOLDER_TOURS: Tour[] = [
     shortDescription:
       "Relax at Paraguay's Rivera del Parana — beach clubs, water sports, and the best nightlife outside Asuncion.",
     heroImage: {
-      url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+      url: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
       alt: "Encarnacion beach",
     },
     price: { amount: 180, currency: "USD", per: "person" },

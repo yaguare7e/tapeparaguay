@@ -21,7 +21,7 @@ The natural beauty is staggering. The Gran Chaco covers 60% of the country — a
 But perhaps the greatest draw is the Paraguayan people themselves — warm, generous, and genuinely curious about visitors. In a world of overtourism and Instagram-driven travel, Paraguay offers something increasingly rare: the chance to discover a country that has not yet been discovered.`,
     date: "2025-12-15",
     image:
-      "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
+      "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=1200&q=80",
     category: "travel",
     author: "Francisco Zubia",
     readTime: 8,
@@ -46,7 +46,7 @@ The Mennonite colonies of Filadelfia, Loma Plata, and Neuland offer surprising o
 For wildlife enthusiasts, the area around Fortín Toledo and the Defensores del Chaco National Park offers some of the best jaguar sighting opportunities in all of South America.`,
     date: "2025-11-28",
     image:
-      "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&q=80",
+      "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=1200&q=80",
     category: "adventure",
     author: "Francisco Zubia",
     readTime: 12,
@@ -77,7 +77,7 @@ Important: To benefit from the territorial system, you need to be a tax resident
 The practical impact is substantial. A remote worker earning $100,000 USD from foreign clients would pay approximately $0 in Paraguayan income tax, compared to $24,000+ in the United States or $30,000+ in many European countries.`,
     date: "2025-11-10",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=80",
+      "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=1200&q=80",
     category: "invest",
     author: "Francisco Zubia",
     readTime: 10,
@@ -100,7 +100,7 @@ Getting there: Located near Encarnacion in southern Paraguay, about 370 km from 
 Combine your visit with a stop at the Argentine missions of San Ignacio Mini (across the border) for the complete Jesuit Missions experience of the region.`,
     date: "2025-10-22",
     image:
-      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1200&q=80",
+      "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=1200&q=80",
     category: "culture",
     author: "Francisco Zubia",
     readTime: 9,
@@ -127,7 +127,7 @@ The final Saturday (the 'clausura') is the biggest night, but the first Saturday
 Food and drink: Street vendors offer empanadas, choripan, terere, and cold beer throughout the event. The costanera restaurants stay open late with special carnival menus.`,
     date: "2025-10-05",
     image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+      "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1200&q=80",
     category: "leisure",
     author: "Francisco Zubia",
     readTime: 7,
@@ -156,7 +156,7 @@ Total costs: Legal fees $1,500-3,000 USD (depending on the law firm), government
 We always recommend working with a reputable immigration attorney in Paraguay. Contact us for referrals to vetted professionals.`,
     date: "2025-09-18",
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80",
+      "https://images.unsplash.com/photo-1646097009669-4779e34e5dd5?w=600&q=80",
     category: "invest",
     author: "Francisco Zubia",
     readTime: 11,

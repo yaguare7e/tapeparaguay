@@ -7,13 +7,13 @@ import { SEGMENTS, SEGMENT_CONFIG, type Segment } from "@/lib/constants/segments
 
 const SEGMENT_IMAGES: Record<Segment, string> = {
   adventure:
-    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+    "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=600&q=80",
   culture:
-    "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80",
+    "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=600&q=80",
   invest:
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+    "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=600&q=80",
   leisure:
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=600&q=80",
 };
 
 const SEGMENT_DESCRIPTIONS: Record<Segment, string> = {

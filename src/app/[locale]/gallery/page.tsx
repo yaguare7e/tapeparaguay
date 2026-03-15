@@ -12,15 +12,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const PLACEHOLDER_IMAGES = [
-  { src: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=800&q=80", alt: "Asuncion skyline", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80", alt: "Chaco wildlife", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80", alt: "Jesuit Missions", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80", alt: "Encarnacion beach", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80", alt: "Ybycui waterfall", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80", alt: "Ciudad del Este", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80", alt: "Motorcycle journey", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80", alt: "Business district", width: 800, height: 600 },
-  { src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", alt: "Mountain landscape", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=800&q=80", alt: "Asuncion skyline", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=800&q=80", alt: "Chaco wildlife", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=800&q=80", alt: "Jesuit Missions", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=800&q=80", alt: "Encarnacion beach", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=800&q=80", alt: "Ybycui waterfall", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=800&q=80", alt: "Ciudad del Este", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=800&q=80", alt: "Motorcycle journey", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=800&q=80", alt: "Business district", width: 800, height: 600 },
+  { src: "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=800&q=80", alt: "Mountain landscape", width: 800, height: 600 },
 ];
 
 export default async function GalleryPage({ params }: { params: Promise<{ locale: string }> }) {

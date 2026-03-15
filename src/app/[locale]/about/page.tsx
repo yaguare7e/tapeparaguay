@@ -49,7 +49,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80)",
+              "url(https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=1920&q=80)",
           }}
         />
         <div className="absolute inset-0 bg-black/60" />
@@ -77,7 +77,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                   className="h-full w-full bg-cover bg-center"
                   style={{
                     backgroundImage:
-                      "url(https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80)",
+                      "url(https://images.unsplash.com/photo-1758550713905-3083dc337a4a?w=800&q=80)",
                   }}
                 />
               </div>

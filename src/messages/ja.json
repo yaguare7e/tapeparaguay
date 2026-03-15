@@ -1,35 +1,40 @@
 {
+  "404": {
+    "title": "ページが見つかりません",
+    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
+    "back_home": "ホームに戻る"
+  },
   "common": {
     "brand": "Tape Paraguay",
-    "tagline": "Your Path to Paraguay",
-    "book": "Book Now",
+    "tagline": "パラグアイへの道",
+    "book": "今すぐ予約",
     "inquire": "Inquire",
-    "learn_more": "Learn More",
-    "explore": "Explore",
-    "contact": "Contact",
-    "view_all": "View All",
-    "back": "Back",
-    "loading": "Loading...",
-    "search": "Search",
-    "close": "Close",
+    "learn_more": "詳しく見る",
+    "explore": "探索する",
+    "contact": "お問い合わせ",
+    "view_all": "すべて見る",
+    "back": "戻る",
+    "loading": "読み込み中...",
+    "search": "検索",
+    "close": "閉じる",
     "open_menu": "Open Menu",
-    "read_more": "Read More",
+    "read_more": "続きを読む",
     "see_all_tours": "See All Tours",
     "download_guide": "Download Guide",
     "request_consultation": "Request Consultation",
     "currency": "USD",
-    "per_person": "per person",
-    "days": "days",
-    "nights": "nights",
+    "per_person": "一人あたり",
+    "days": "日間",
+    "nights": "泊",
     "from_price": "From",
-    "from": "From",
-    "cta_explore": "Explore Paraguay",
-    "cta_contact": "Contact Us",
+    "from": "から",
+    "cta_explore": "パラグアイを探索",
+    "cta_contact": "お問い合わせ",
     "cta_learn_more": "Learn More",
     "cta_read_more": "Read More",
     "cta_see_all_tours": "See All Tours",
     "cta_view_all": "View All",
-    "cta_book": "Book Now",
+    "cta_book": "今すぐ予約",
     "whatsapp_message": "Hello! I'm interested in learning more about Tape Paraguay services."
   },
   "segment_cards": {
@@ -39,18 +44,18 @@
     "leisure_desc": "Encarnacion beaches, nightlife, gourmet dining, and weekend getaways."
   },
   "nav": {
-    "adventure": "Adventure",
-    "culture": "Culture",
-    "invest": "Invest",
-    "leisure": "Leisure",
-    "destinations": "Destinations",
+    "adventure": "アドベンチャー",
+    "culture": "文化",
+    "invest": "投資",
+    "leisure": "レジャー",
+    "destinations": "目的地",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact",
-    "faq": "FAQ",
-    "tools": "Travel Tools",
-    "gallery": "Gallery",
-    "testimonials": "Testimonials",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "faq": "よくある質問",
+    "tools": "旅行ツール",
+    "gallery": "ギャラリー",
+    "testimonials": "お客様の声",
     "residency": "Residency",
     "tax_benefits": "Tax Benefits",
     "real_estate": "Real Estate",
@@ -58,24 +63,24 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cancellation": "Cancellation Policy",
-    "tours": "Tours"
+    "tours": "ツアー"
   },
   "home": {
-    "hero_title": "Discover Paraguay",
-    "hero_subtitle": "Uncover the untamed beauty, investment paradise, and cultural heritage of South America's best-kept secret. From the wild Chaco to the Jesuit missions, your adventure starts here.",
-    "featured_tours_title": "Featured Tours",
+    "hero_title": "パラグアイを発見しよう",
+    "hero_subtitle": "南米最後の秘境の手つかずの美しさ、投資の楽園、そして文化遺産を発見してください。",
+    "featured_tours_title": "おすすめツアー",
     "featured_tours_subtitle": "Carefully crafted experiences that bring you the best of Paraguay, from Chaco expeditions to cultural immersions in the Jesuit missions.",
-    "destinations_title": "Must-See Destinations",
+    "destinations_title": "必見の目的地",
     "destinations_subtitle": "Paraguay awaits with landscapes ranging from endless wetlands to vibrant cities. Every corner has a story to tell you.",
-    "testimonials_title": "What Our Travelers Say",
+    "testimonials_title": "お客様の声",
     "testimonials_subtitle": "Real stories from those who dared to discover Paraguay and took home unforgettable memories.",
-    "blog_title": "Latest from the Blog",
+    "blog_title": "最新ブログ",
     "blog_subtitle": "Travel tips, adventure stories, and the latest Paraguay news you need to know before your next trip.",
     "stats_tours": "Tours Offered",
     "stats_travelers": "Happy Travelers",
     "stats_destinations": "Destinations",
     "stats_countries": "Countries Served",
-    "newsletter_title": "Don't Miss a Thing",
+    "newsletter_title": "お見逃しなく",
     "newsletter_description": "Subscribe to receive exclusive offers, travel guides, and the latest Paraguay news straight to your inbox.",
     "tours_offered": "Tours Offered",
     "happy_travelers": "Happy Travelers",
@@ -85,7 +90,7 @@
   "adventure": {
     "meta_title": "Adventure in Paraguay | Tape Paraguay",
     "meta_description": "Experience the wild adventure of Paraguay: Chaco expeditions, Pantanal safaris, river kayaking, and unique South American wildlife spotting.",
-    "hero_title": "Wild Adventure in Paraguay",
+    "hero_title": "パラグアイの野生の冒険",
     "hero_subtitle": "For those who seek raw thrills and nature in its purest form",
     "intro": "Paraguay hides one of the wildest ecosystems on the planet. Venture into the Chaco, the great green desert where jaguars and pumas reign among ancient quebracho forests. Navigate the Paraguayan Pantanal, the world's largest wetland, where caimans, capybaras, and hundreds of bird species await. Paddle the Paraguay and Parana rivers by kayak, fish for the legendary dorado, or ride horseback through estancias that have upheld ranching traditions for centuries. Here, adventure is not a theme park — it is real life.",
     "section_chaco": "Chaco Expeditions",
@@ -98,7 +103,7 @@
   "culture": {
     "meta_title": "Culture & Heritage | Tape Paraguay",
     "meta_description": "Discover Paraguay's cultural heritage: Jesuit missions, Guarani culture, nanduti lace, ao po'i weaving, traditional gastronomy, and unique festivals.",
-    "hero_title": "Paraguay's Cultural Heritage",
+    "hero_title": "パラグアイの文化遺産",
     "hero_subtitle": "Where Guarani history and colonial legacy meet",
     "intro": "Paraguay is the only truly bilingual nation in South America, where Guarani and Spanish coexist in every conversation. Explore the imposing ruins of the Jesuit Missions of Trinidad and Jesus, a UNESCO World Heritage Site. Discover the art of nanduti, the needle lace that artisans weave like spider webs, and ao po'i, the exquisitely fine cotton fabric passed down through generations. Savor sopa paraguaya, chipa, and terere while wandering through markets and festivals that keep an ancient culture alive.",
     "section_missions": "Jesuit Missions",
@@ -111,7 +116,7 @@
   "invest": {
     "meta_title": "Invest in Paraguay | Tape Paraguay",
     "meta_description": "Discover why Paraguay is South America's most attractive investment destination: 10% flat tax, territorial system, fast residency, and real estate opportunities.",
-    "hero_title": "Invest in Paraguay",
+    "hero_title": "パラグアイに投資する",
     "hero_subtitle": "The best-kept secret of smart investors in South America",
     "intro": "Paraguay offers one of the most competitive tax regimes in the world: a flat 10% income tax, a territorial tax system that does not tax foreign-sourced income, and a permanent residency process that can be completed in weeks, not years. With a stable economy, low cost of living, and a strategic location in the heart of Mercosur, Paraguay has become the go-to destination for entrepreneurs, digital nomads, and investors looking to maximize their wealth with legal certainty.",
     "section_residency": "Permanent Residency",
@@ -128,7 +133,7 @@
   "leisure": {
     "meta_title": "Leisure & Relaxation in Paraguay | Tape Paraguay",
     "meta_description": "Enjoy the relaxed side of Paraguay: Encarnacion beaches, Asuncion nightlife, gourmet dining, weekend getaways, and more.",
-    "hero_title": "Relax & Fun in Paraguay",
+    "hero_title": "パラグアイでリラックス",
     "hero_subtitle": "Because Paraguay also knows how to have a good time",
     "intro": "Not everything in Paraguay is jungle and adventure. Discover the golden sand beaches of Encarnacion, the Paraguayan Miami, where the Encarnacion Carnival rivals the best on the continent. Enjoy Asuncion's growing food scene, where young chefs fuse Guarani cuisine with international techniques. Escape for a weekend to Lake Ypacarai, tour artisanal wineries, relax in thermal spas, or simply sit in a colonial plaza with a terere in hand and let Paraguayan time work its magic.",
     "section_beaches": "Encarnacion Beaches",
@@ -139,16 +144,16 @@
     "section_carnival": "Encarnacion Carnival"
   },
   "booking": {
-    "title": "Book Your Experience",
+    "title": "体験を予約する",
     "subtitle": "Fill out the form and we will get in touch to design your ideal trip to Paraguay.",
-    "full_name": "Full Name",
-    "email": "Email Address",
-    "phone": "Phone Number",
+    "full_name": "氏名",
+    "email": "メールアドレス",
+    "phone": "電話番号",
     "preferred_date": "Preferred Date",
     "group_size": "Group Size",
     "message": "Message",
     "tour": "Tour of Interest",
-    "submit": "Submit Booking",
+    "submit": "予約を送信",
     "success": "Your booking was submitted successfully. We will contact you within 24 hours to confirm the details of your experience.",
     "error": "There was an error submitting your booking. Please try again or contact us directly.",
     "success_title": "Booking Sent",
@@ -159,14 +164,14 @@
     "book_tour": "Book Tour"
   },
   "contact": {
-    "title": "Contact Us",
+    "title": "お問い合わせ",
     "subtitle": "We are here to help you plan your perfect Paraguay experience. Write to us and we will respond within 24 hours.",
     "full_name": "Full Name",
     "email": "Email Address",
     "phone": "Phone Number",
     "subject": "Subject",
     "message": "Your Message",
-    "submit": "Send Message",
+    "submit": "メッセージを送信",
     "address_label": "Address",
     "phone_label": "Phone",
     "email_label": "Email",
@@ -184,7 +189,7 @@
   },
   "footer": {
     "about_text": "Tape Paraguay is your gateway to one of South America's most authentic destinations. We design travel experiences, investment advisory, and relocation services for those seeking to discover the real Paraguay.",
-    "rights": "All rights reserved",
+    "rights": "全著作権所有",
     "segments_title": "Segments",
     "resources_title": "Resources",
     "legal_title": "Legal",
@@ -200,9 +205,9 @@
     "error": "We could not process your subscription. Please try again."
   },
   "legal": {
-    "terms_title": "Terms & Conditions",
-    "privacy_title": "Privacy Policy",
-    "cancellation_title": "Cancellation Policy",
+    "terms_title": "利用規約",
+    "privacy_title": "プライバシーポリシー",
+    "cancellation_title": "キャンセルポリシー",
     "last_updated": "Last updated: March 2025",
     "terms_s1_title": "1. Acceptance of Terms",
     "terms_s1_text": "By accessing and using the Tape Paraguay website and services, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.",
@@ -284,7 +289,7 @@
     "home_found": "home found"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "よくある質問",
     "subtitle": "Everything you need to know before traveling to or investing in Paraguay. If your question is not here, write to us and we will respond personally.",
     "q_1": "Is Paraguay safe for tourists?",
     "a_1": "Yes, Paraguay is generally safe for tourists. Like any country, it is important to exercise normal precautions, especially in larger cities. Most tourist areas are very welcoming, and Paraguayans are known for their friendliness and hospitality.",
@@ -312,7 +317,7 @@
     "a_12": "Paraguay has one of the lowest costs of living in South America. A comfortable lifestyle in Asuncion can be achieved for $1,500-2,500 USD per month, including rent, food, transportation, and entertainment. Rural areas are even more affordable."
   },
   "gallery": {
-    "title": "Gallery",
+    "title": "ギャラリー",
     "subtitle": "Discover Paraguay in Images",
     "filter_all": "All",
     "filter_adventure": "Adventure",
@@ -326,7 +331,7 @@
     "subtitle": "Real stories from people who trusted Tape Paraguay and lived experiences that changed their perspective."
   },
   "tools": {
-    "title": "Travel Tools",
+    "title": "旅行ツール",
     "subtitle": "Useful resources to plan your trip or relocation to Paraguay.",
     "currency_converter": "Currency Converter",
     "currency_converter_description": "Convert between guaranies, dollars, euros, and other currencies instantly.",
@@ -336,11 +341,6 @@
     "packing_list_description": "Know exactly what to pack depending on the season and the type of trip you are planning.",
     "tax_calculator": "Tax Calculator",
     "tax_calculator_description": "Estimate your tax burden in Paraguay and compare it with your current country."
-  },
-  "404": {
-    "title": "Page Not Found",
-    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
-    "back_home": "Back to Home"
   },
   "invest_residency": {
     "meta_title": "Residency in Paraguay | Tape Paraguay",
@@ -560,11 +560,11 @@
     "annual_savings": "Annual Savings"
   },
   "loading": {
-    "title": "Loading..."
+    "title": "読み込み中..."
   },
   "error": {
-    "title": "Something went wrong",
+    "title": "エラーが発生しました",
     "description": "There was an unexpected error. Please try reloading the page.",
-    "retry": "Try again"
+    "retry": "もう一度試す"
   }
 }

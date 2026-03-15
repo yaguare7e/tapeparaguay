@@ -15,15 +15,15 @@ interface HeroProps {
 
 const SEGMENT_BACKGROUNDS: Record<string, string> = {
   default:
-    "https://images.unsplash.com/photo-1591035897819-f4bdf739f446?w=1920&q=80",
+    "https://images.unsplash.com/photo-1646097009669-4779e34e5dd5?w=1920&q=80",
   adventure:
-    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80",
+    "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=1920&q=80",
   culture:
-    "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1920&q=80",
+    "https://images.unsplash.com/photo-1579957023433-7fad5b83efae?w=1920&q=80",
   invest:
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
+    "https://images.unsplash.com/photo-1758519289559-f4d0ead39634?w=1920&q=80",
   leisure:
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80",
+    "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1920&q=80",
 };
 
 export function Hero({

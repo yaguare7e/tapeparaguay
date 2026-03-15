@@ -1,15 +1,20 @@
 {
+  "404": {
+    "title": "Khong tim thay trang",
+    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
+    "back_home": "Back to Home"
+  },
   "common": {
     "brand": "Tape Paraguay",
     "tagline": "Your Path to Paraguay",
-    "book": "Book Now",
+    "book": "Dat ngay",
     "inquire": "Inquire",
     "learn_more": "Learn More",
     "explore": "Explore",
     "contact": "Contact",
     "view_all": "View All",
-    "back": "Back",
-    "loading": "Loading...",
+    "back": "Quay lai",
+    "loading": "Dang tai...",
     "search": "Search",
     "close": "Close",
     "open_menu": "Open Menu",
@@ -39,13 +44,13 @@
     "leisure_desc": "Encarnacion beaches, nightlife, gourmet dining, and weekend getaways."
   },
   "nav": {
-    "adventure": "Adventure",
-    "culture": "Culture",
-    "invest": "Invest",
-    "leisure": "Leisure",
-    "destinations": "Destinations",
+    "adventure": "Phieu luu",
+    "culture": "Van hoa",
+    "invest": "Dau tu",
+    "leisure": "Giai tri",
+    "destinations": "Diem den",
     "blog": "Blog",
-    "about": "About Us",
+    "about": "Ve chung toi",
     "contact": "Contact",
     "faq": "FAQ",
     "tools": "Travel Tools",
@@ -58,10 +63,10 @@
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "cancellation": "Cancellation Policy",
-    "tours": "Tours"
+    "tours": "Tour"
   },
   "home": {
-    "hero_title": "Discover Paraguay",
+    "hero_title": "Kham pha Paraguay",
     "hero_subtitle": "Uncover the untamed beauty, investment paradise, and cultural heritage of South America's best-kept secret. From the wild Chaco to the Jesuit missions, your adventure starts here.",
     "featured_tours_title": "Featured Tours",
     "featured_tours_subtitle": "Carefully crafted experiences that bring you the best of Paraguay, from Chaco expeditions to cultural immersions in the Jesuit missions.",
@@ -284,7 +289,7 @@
     "home_found": "home found"
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Cau hoi thuong gap",
     "subtitle": "Everything you need to know before traveling to or investing in Paraguay. If your question is not here, write to us and we will respond personally.",
     "q_1": "Is Paraguay safe for tourists?",
     "a_1": "Yes, Paraguay is generally safe for tourists. Like any country, it is important to exercise normal precautions, especially in larger cities. Most tourist areas are very welcoming, and Paraguayans are known for their friendliness and hospitality.",
@@ -336,11 +341,6 @@
     "packing_list_description": "Know exactly what to pack depending on the season and the type of trip you are planning.",
     "tax_calculator": "Tax Calculator",
     "tax_calculator_description": "Estimate your tax burden in Paraguay and compare it with your current country."
-  },
-  "404": {
-    "title": "Page Not Found",
-    "description": "It seems this path does not lead anywhere. But do not worry, Paraguay has thousands of paths to explore.",
-    "back_home": "Back to Home"
   },
   "invest_residency": {
     "meta_title": "Residency in Paraguay | Tape Paraguay",
@@ -560,11 +560,11 @@
     "annual_savings": "Annual Savings"
   },
   "loading": {
-    "title": "Loading..."
+    "title": "Dang tai..."
   },
   "error": {
-    "title": "Something went wrong",
+    "title": "Da co loi xay ra",
     "description": "There was an unexpected error. Please try reloading the page.",
-    "retry": "Try again"
+    "retry": "Thu lai"
   }
 }

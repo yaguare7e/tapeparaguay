@@ -11,7 +11,7 @@ const TOURS = [
     title: "Chaco Wildlife Safari",
     description:
       "Explore the untamed Paraguayan Chaco — one of South America's last wild frontiers. Spot jaguars, peccaries, and 400+ bird species across the vast green desert where ancient quebracho forests stretch to the horizon.",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=1200&q=80",
     price: 450,
     duration: "4 days / 3 nights",
     difficulty: "Moderate",
@@ -29,7 +29,7 @@ const TOURS = [
     title: "Pantanal Birdwatching Expedition",
     description:
       "Discover the incredible avian biodiversity of the Paraguayan Pantanal, the world's largest tropical wetland. With over 700 species recorded, this is a birdwatcher's paradise.",
-    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=1200&q=80",
     price: 380,
     duration: "3 days / 2 nights",
     difficulty: "Moderate",

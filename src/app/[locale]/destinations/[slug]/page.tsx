@@ -10,7 +10,7 @@ const DESTINATIONS = [
     description:
       "The vibrant capital of Paraguay sits on the banks of the Paraguay River, blending colonial architecture with modern development. Asuncion is a city of contrasts — centuries-old buildings stand alongside sleek towers, traditional markets coexist with gourmet restaurants, and the relaxed pace of Paraguayan life persists amid growing cosmopolitan energy. From the historic Cabildo to the bustling Mercado 4, the city offers a fascinating window into the country's past and future.",
     image:
-      "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
+      "https://images.unsplash.com/photo-1655775130609-642423db9ff9?w=1200&q=80",
     region: "Central",
     climate: "Subtropical humid — hot summers, mild winters",
     bestTime: "May to September",
@@ -28,7 +28,7 @@ const DESTINATIONS = [
     description:
       "Known as the 'Pearl of the South', Encarnacion is Paraguay's beach capital. Its modern costanera along the Parana River features golden sand beaches, water sports, and a vibrant carnival season that rivals the best in South America. The city also serves as the gateway to the UNESCO Jesuit Missions of Trinidad and Jesus, and hosts a thriving Japanese-Paraguayan community with its own cultural district.",
     image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+      "https://images.unsplash.com/photo-1649275579015-5092d2ffcf2b?w=1200&q=80",
     region: "Itapua",
     climate: "Subtropical — warm year-round, milder than Asuncion",
     bestTime: "January-February (Carnival), May-September (mild weather)",
@@ -46,7 +46,7 @@ const DESTINATIONS = [
     description:
       "The Gran Chaco covers 60% of Paraguay's territory but holds less than 3% of its population. This vast, wild frontier ranges from palm savannas near the Paraguay River to dry scrubland and ancient quebracho forests in the west. It is one of South America's last true wilderness areas, home to jaguars, giant armadillos, and over 400 bird species. The Mennonite colonies of Filadelfia and Loma Plata offer surprising oases of dairy farming culture.",
     image:
-      "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&q=80",
+      "https://images.unsplash.com/photo-1585318822320-300abf39f65d?w=1200&q=80",
     region: "Occidental (Boreal, Presidente Hayes, Alto Paraguay)",
     climate: "Semi-arid to hot — extreme temperatures possible",
     bestTime: "June to August (cooler, best wildlife)",
@@ -64,7 +64,7 @@ const DESTINATIONS = [
     description:
       "Paraguay's second-largest city is a commercial powerhouse on the Brazilian border, connected to Foz do Iguacu by the Friendship Bridge. Beyond its famous duty-free shopping district, Ciudad del Este offers access to the mighty Itaipu Dam — the world's largest hydroelectric plant — and the stunning Monday Falls (Salto Monday), a 45-meter waterfall just minutes from the city center.",
     image:
-      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80",
+      "https://images.unsplash.com/photo-1655425541685-c3d9b0672d9f?w=1200&q=80",
     region: "Alto Parana",
     climate: "Subtropical humid — hot and rainy in summer",
     bestTime: "April to October",
@@ -82,7 +82,7 @@ const DESTINATIONS = [
     description:
       "The charming summer resort town of San Bernardino sits on the shores of Lake Ypacarai, just an hour from Asuncion. During the warmer months, it transforms into the social capital of Paraguay, with beach clubs, water sports, live music venues, and packed restaurants along the lakefront. The town also features lovely colonial German architecture, a legacy of its 19th-century founders.",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+      "https://images.unsplash.com/photo-1769794142260-c4115835231a?w=1200&q=80",
     region: "Cordillera",
     climate: "Subtropical — warm summers, cool winters",
     bestTime: "October to March (summer season)",
@@ -100,7 +100,7 @@ const DESTINATIONS = [
     description:
       "Paraguay's premier national park protects a stunning area of Atlantic Forest with waterfalls, hiking trails, and rich biodiversity. The park is home to the historic La Rosada iron foundry, a relic of the War of the Triple Alliance. Crystal-clear streams cascade into swimming holes, and the forest canopy shelters hundreds of bird species, making it a paradise for hikers and nature lovers.",
     image:
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80",
+      "https://images.unsplash.com/photo-1723784037687-edb3a4959c22?w=1200&q=80",
     region: "Paraguari",
     climate: "Subtropical — cooler due to elevation",
     bestTime: "Year-round (avoid heavy rains Dec-Feb)",
